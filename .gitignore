@@ -9,7 +9,7 @@
 /test/tmp/
 /test/version_tmp/
 /tmp/
-/static/me-1.jpeg
+/static/me.jpeg
 
 # Used by dotenv library to load environment variables.
 # .env
