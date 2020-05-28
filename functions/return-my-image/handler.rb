@@ -7,7 +7,7 @@ def return_my_image(event:, context:)
       'Content-type': 'image/jpeg',
       'content-disposition': 'attachment; filename=me.jpeg'
     },
-    body: Base64.encode64(File.open("static/index.html", "rb").read),
+    body: Base64.encode64(File.open("static/me.jpeg", "rb").read),
     isBase64Encoded: true
   }
 end
