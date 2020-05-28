@@ -9,6 +9,7 @@
 /test/tmp/
 /test/version_tmp/
 /tmp/
+/static/me-1.jpeg
 
 # Used by dotenv library to load environment variables.
 # .env
@@ -54,3 +55,6 @@ build-iPhoneSimulator/
 
 # package directories
 node_modules
+
+#DS
+.DS_Store
